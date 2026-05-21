@@ -1,6 +1,6 @@
 import { fastify } from 'fastify'
 import 'dotenv/config';
-import { DatabaseMYSQL } from './database-mysql';
+import { DatabaseMYSQL } from './database-mysql.js';
 const { PORT } = process.env;
 
 
